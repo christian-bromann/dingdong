@@ -1,0 +1,22 @@
+{
+  "name": "dingdong",
+  "version": "1.0.0",
+  "description": "Lambda function that sends you a text message when someone is at the door",
+  "author": "Christian Bromann <christian@saucelabs.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/christian-bromann/dingdong#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-bromann/dingdong.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christian-bromann/dingdong/issues"
+  },
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.245.1"
+  }
+}
